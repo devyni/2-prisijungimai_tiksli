@@ -2,24 +2,65 @@ body {
     background-color: #ffffff;
 
 }
-   body > div {
+   .containter {
         display: inline-block;
         width: 800px;
+        margin-top: 100px;
         margin-left: calc(50% - 400px);
-        background-color: yellow;
-
+        
    }
 
-        img {
+        .left {
             display: inline-block;
             width: 50%;
             float: left;
-            background-color: aqua;
+            
 
         }
-        div > div {
+        .right {
             display: inline-block;
             width: 40%;
             float: right;
-            background-color: pink;
+        
+            border: 1px solid grey;
+            border-radius: 20%;
+            
         }
+            .form {
+                display: inline-block;
+                width: 100%;
+                
+            }
+            .form-row{
+                display: inline-block;
+                width: 100%;
+                float: right;
+                
+
+            }
+            .main-title{
+                display: inline-block;
+                width: 100%;
+                text-align: center;
+            }
+            .form-bottom {
+
+            }
+/* melynas */
+form > .melynas {
+    background-color: blue;
+
+}
+
+
+/* raudonas */
+.raudonas {
+    background-color: red;
+
+}
+
+/* baltas tekstas */
+.baltas-tekstas {
+    color: #ffffff;
+
+}
