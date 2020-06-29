@@ -73,6 +73,9 @@ body {
                 .forgot-link {
                     float: right;
                 }
+                .btn {
+                    width: 100%;
+                }
 
 
 
